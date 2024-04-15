@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.hotline-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: transparent; /* Transparent background */
+    color: rgba(255, 255, 255, 0.8); /* Light gray text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hotline-button:hover {
+    color: rgba(255, 255, 255, 1); /* White text on hover */
+}
