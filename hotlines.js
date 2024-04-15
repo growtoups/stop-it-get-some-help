@@ -1,8 +1,8 @@
 // Sample data of drug hotlines for different countries
 const drugHotlines = [
     { country: "United States", hotline: "(888) 986-7685" },
-    { country: "United Kingdom", hotline: "116 123 },
-    { country: "Canada", hotline: "	1-833-553-6983" },
+    { country: "United Kingdom", hotline: "116 123" },
+    { country: "Canada", hotline: "1-833-553-6983" },
     // Add more countries and their hotlines as needed
 ];
 
