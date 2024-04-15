@@ -42,3 +42,10 @@ h1 {
 #hotlineList li:last-child {
     border-bottom: none;
 }
+
+video {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+    margin-top: 50px;
+}
