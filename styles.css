@@ -19,3 +19,26 @@ body {
 .hotline-button:hover {
     color: rgba(255, 255, 255, 1); /* White text on hover */
 }
+h1 {
+    text-align: center;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#hotlineList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#hotlineList li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+#hotlineList li:last-child {
+    border-bottom: none;
+}
