@@ -4,6 +4,7 @@ body {
     padding: 20px;
     background-color: black;
     color: rgba(255, 255, 255, 0.8); /* Light gray text */
+    text-shadow: 0 0 10px rgba(255,255,255,0.8); /* Glow effect */
     text-align: center; /* Center all text */
 }
 
