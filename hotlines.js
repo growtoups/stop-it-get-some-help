@@ -1,10 +1,4 @@
-
-const drugHotlines = [
-    { country: "United States", hotline: "(888) 986-7685" },
-    { country: "United Kingdom", hotline: "116 123" },
-    { country: "Canada", hotline: "1-833-553-6983" },
-    
-];
+// Function to fetch and parse the JSON data
 async function fetchHotlines() {
     try {
         const response = await fetch('hotlines.json');
@@ -15,12 +9,14 @@ async function fetchHotlines() {
         return [];
     }
 }
+
 // Function to populate the hotline list
-function populateHotlineList() {
+async function populateHotlineList() {
+    const hotlines = await fetchHotlines();
     const hotlineList = document.getElementById("hotlineList");
     hotlineList.innerHTML = ""; // Clear existing list
 
-    drugHotlines.forEach(hotline => {
+    hotlines.forEach(hotline => {
         const listItem = document.createElement("li");
         listItem.textContent = `${hotline.country}: ${hotline.hotline}`;
         hotlineList.appendChild(listItem);
@@ -28,9 +24,10 @@ function populateHotlineList() {
 }
 
 // Function to filter hotlines based on search input
-function searchHotlines() {
+async function searchHotlines() {
+    const hotlines = await fetchHotlines();
     const searchInput = document.getElementById("searchInput").value.toLowerCase();
-    const filteredHotlines = drugHotlines.filter(hotline =>
+    const filteredHotlines = hotlines.filter(hotline =>
         hotline.country.toLowerCase().includes(searchInput)
     );
     const hotlineList = document.getElementById("hotlineList");
