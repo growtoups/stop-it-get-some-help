@@ -10,13 +10,9 @@ This web application provides a list of drug hotlines for various countries. Use
 
 ## Usage
 
-1. Clone the repository:
+1. Go on the [website](https://stopitgetsomehelp.org/)
 
-```
-git clone https://github.com/growtoups/stop-it-get-some-help
-```
-
-2. Open the `hotlines.html` file in your web browser.
+2. Click on the Drugs Hotlines button.
 
 3. Enter the name of the country you want to find drug hotlines for in the search bar.
 
