@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: black;
+    color: black;
+    text-align: center; /* Center all text */
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-transform: uppercase; /* Uppercase headings */
+}
+
+#searchInput {
+    width: 50%; /* Center search input */
+    padding: 10px;
+    margin: 0 auto; /* Center horizontally */
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #333; /* Darker background for search input */
+    color: white;
+}
+
+#hotlineList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto; /* Center horizontally */
+    max-width: 600px; /* Limit width of the list */
+}
+
+#hotlineList li {
+    padding: 10px 0;
+    border-bottom: 1px solid #555;
+    font-size: 18px;
+}
+
+#hotlineList li:last-child {
+    border-bottom: none;
+}
+
+.hotline-link {
+    text-decoration: none; /* Remove underline from the button */
+}
+
+.hotline-button {
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.hotline-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
