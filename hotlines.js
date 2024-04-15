@@ -5,7 +5,16 @@ const drugHotlines = [
     { country: "Canada", hotline: "1-833-553-6983" },
     
 ];
-
+async function fetchHotlines() {
+    try {
+        const response = await fetch('hotlines.json');
+        const hotlines = await response.json();
+        return hotlines;
+    } catch (error) {
+        console.error('Error fetching hotlines:', error);
+        return [];
+    }
+}
 // Function to populate the hotline list
 function populateHotlineList() {
     const hotlineList = document.getElementById("hotlineList");
