@@ -3,5 +3,6 @@
     { "country": "United Kingdom", "hotline": "116-123" },
     { "country": "Canada", "hotline": "1 833-553-6983" },
   { "country": "Australia", "hotline": "1 800-250-015"},
-  { "country": "India", "hotline": "14446"}
+  { "country": "India", "hotline": "14446"},
+  { "country": "Mexico", "hotline": "800-911-2000"}
 ]
