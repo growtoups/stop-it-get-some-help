@@ -1,5 +1,6 @@
 [
-  { "country": "United States", "hotline": "(888) 986-7685" },
-    { "country": "United Kingdom", "hotline": "116 123" },
-    { "country": "Canada", "hotline": "1-833-553-6983" }
+  { "country": "United States", "hotline": "1 (888)-986-7685" },
+    { "country": "United Kingdom", "hotline": "116-123" },
+    { "country": "Canada", "hotline": "1 833-553-6983" },
+  { "country": "Australia", "hotline": "1 800-250-015"}
 ]
